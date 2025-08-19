@@ -239,15 +239,6 @@ class IconPicker extends Select
      * @deprecated Method inherited from `\Filament\Forms\Components\Select` but not supported (or meaningless) when using this field
      * @throws \BadMethodCallException
      */
-    public function searchable(bool|array|Closure $condition = true): static
-    {
-        $this->markAsNotAllowed();
-    }
-
-    /**
-     * @deprecated Method inherited from `\Filament\Forms\Components\Select` but not supported (or meaningless) when using this field
-     * @throws \BadMethodCallException
-     */
     public function getSearchResultsUsing(?Closure $callback): static
     {
         $this->markAsNotAllowed();
